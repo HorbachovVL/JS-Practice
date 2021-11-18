@@ -11,3 +11,13 @@ File object.js includes:
 - spread
 - rest
 - Деструктуризація
+
+File function.js includes:
+- Callback
+- Абстрагування повторення
+- Фільтрація масивів
+- Замикання
+- this
+- call, apply
+- bind
+- this в стрілкових функціях
