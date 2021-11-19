@@ -21,3 +21,8 @@ File function.js includes:
 - call, apply
 - bind
 - this в стрілкових функціях
+
+File class.js includes:
+- constructor
+- prototype
+- Class
