@@ -26,3 +26,14 @@ File class.js includes:
 - constructor
 - prototype
 - Class
+
+File array.js includes
+- forEach
+- map
+- filter
+- find
+- every
+- some
+- reduce
+- sort
+- chaining
