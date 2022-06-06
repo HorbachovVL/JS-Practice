@@ -99,7 +99,7 @@ counter2();
 // this
 // =========================================================
 
-const obj = {
+const obj2 = {
     name: 'Bobby',
     age: 15,
     sayHello() {
@@ -131,7 +131,7 @@ function sayName() {
     console.log(this.name)
 }
 
-const obj1 = {
+const obj4 = {
     name: 'Bobby',
     age: 15
 };

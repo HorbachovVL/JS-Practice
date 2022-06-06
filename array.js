@@ -15,16 +15,16 @@ function pureSort(items) {
     return newItems;
 }
 
-const arr = [2, 1, 5, 3, 4];
-console.log(arr);
-console.log(pureSort(arr));
-console.log(arr)
+const arr2 = [2, 1, 5, 3, 4];
+console.log(arr2);
+console.log(pureSort(arr2));
+console.log(arr2)
 
 //========================================================================
 // forEach
 //========================================================================
 
-const arr = [1, 2, 3]
+const arr3 = [1, 2, 3]
 
 arr.forEach((item) => {
     console.log(item);
@@ -34,86 +34,86 @@ arr.forEach((item) => {
 // map
 //========================================================================
 
-const arr = ['Bobby', 'Peter', 'Chris'];
+const arr4 = ['Bobby', 'Peter', 'Chris'];
 
-const newArr = arr.map(item => {
+const newArr2 = arr.map(item => {
     return item + 'Yes';
 })
 
-console.log(newArr)
+console.log(newArr2)
 
-const arr = [
+const arr5 = [
     {name: 'Bobby', age: 15},
     {name: 'Peter', age: 25},
     {name: 'Chris', age: 35}
 ]
 
-const names = arr.map(({ name }) => name);
+const names = arr5.map(({ name }) => name);
 console.log(names)
 
 //========================================================================
 // filter
 //========================================================================
 
-const arr = [
+const arr6 = [
     {name: 'Bobby', age: 15},
     {name: 'Peter', age: 25},
     {name: 'Chris', age: 35}
 ]
 
 
-const newArr = arr.filter(item => item.age > 20);
-console.log(newArr)
+const newArr3 = arr6.filter(item => item.age > 20);
+console.log(newArr3)
 
 //========================================================================
 // find
 //========================================================================
 
-const arr = [
+const arr7 = [
     {name: 'Bobby', age: 15},
     {name: 'Peter', age: 25},
     {name: 'Chris', age: 35}
 ]
 
 
-const bobby = arr.find(item => item.name === 'Peter');
+const bobby = arr7.find(item => item.name === 'Peter');
 console.log(bobby)
 
 //========================================================================
 // every
 //========================================================================
 
-const arr = [1, 2, 3, 4, 5, 6]
+const arr8 = [1, 2, 3, 4, 5, 6]
 
-const allEven = arr.every(item => item % 2 === 0);
+const allEven = arr8.every(item => item % 2 === 0);
 console.log(allEven)
 
 //========================================================================
 // some
 //========================================================================
 
-const arr = [1, 2, 3, 4, 5, 6]
+const arr9 = [1, 2, 3, 4, 5, 6]
 
-const someEven = arr.some(item => item % 2 === 0);
+const someEven = arr9.some(item => item % 2 === 0);
 console.log(someEven)
 
 //========================================================================
 // reduce
 //========================================================================
 
-const arr = [1, 2, 3, 4, 5, 6];
+const arr10 = [1, 2, 3, 4, 5, 6];
 
-const sum = arr.reduce((acc, item) => {
+const sum = arr10.reduce((acc, item) => {
     return acc + item;
 }, 0);
-const min = arr.reduce((acc, item) => {
+const min = arr10.reduce((acc, item) => {
     if (item < acc) {
         return item;
     }
     return acc;
 });
 
-const max = arr.reduce((acc, item) => {
+const max = arr10.reduce((acc, item) => {
     if (item > acc) {
         return item;
     }
@@ -128,20 +128,20 @@ console.log(max);
 // sort
 //========================================================================
 
-const arr = [9, 11,2, 34, 5, 1, 22, 3]
+const arr11 = [9, 11,2, 34, 5, 1, 22, 3]
 
-arr.sort((a, b) => a - b);
+arr11.sort((a, b) => a - b);
 
-console.log(arr)
+console.log(arr11)
 
 
-const arr = [
+const arr12 = [
     {name: 'Peter', age: 25},
     {name: 'Bobby', age: 15},
     {name: 'Chris', age: 35}
 ]
 
-arr.sort(({age: a}, {age: b}) => {
+arr12.sort(({age: a}, {age: b}) => {
     // if (a.age < b.age) {
     //     return -1;
     // }
@@ -158,21 +158,21 @@ arr.sort(({age: a}, {age: b}) => {
     return 0
 });
 
-console.log(arr)
+console.log(arr12)
 
 //========================================================================
 // chaining
 //========================================================================
 
-const arr = [
+const arr13 = [
     {name: 'Peter', age: 25},
     {name: 'Bobby', age: 15},
     {name: 'Chris', age: 35}
 ];
 
-const newArr = arr
+const newArr4 = arr13
     .filter(({ age }) => age > 18)
     .map(({ age }) => age)
     .reverse().reduce((a, b) => a + b)
 
-console.log(newArr)
+console.log(newArr4)

@@ -80,7 +80,7 @@
 // Object.keys()
 // =========================================================
 
-const human = {
+const human1 = {
     name: 'Bobby',
     age: 15
 }
@@ -98,29 +98,29 @@ const getAge = (obj, key) => {
 
     return result;
 }
-console.log(getAge(human, 'age'));
+console.log(getAge(human1, 'age'));
 
 // =========================================================
 // Object.values()
 // =========================================================
 
-const human = {
+const human2 = {
     name: 'Bobby',
     age: 15
 }
 
-console.log(Object.values(human))
+console.log(Object.values(human2))
 
 // =========================================================
 // Object.entries()
 // =========================================================
 
-const human = {
+const human3 = {
     name: 'Bobby',
     age: 15
 }
 
-console.log(Object.entries(human))
+console.log(Object.entries(human3))
 
 
 // =========================================================
