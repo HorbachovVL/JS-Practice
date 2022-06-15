@@ -26,7 +26,7 @@ console.log(arr2)
 
 const arr3 = [1, 2, 3]
 
-arr.forEach((item) => {
+arr3.forEach((item) => {
     console.log(item);
 })
 
@@ -36,8 +36,8 @@ arr.forEach((item) => {
 
 const arr4 = ['Bobby', 'Peter', 'Chris'];
 
-const newArr2 = arr.map(item => {
-    return item + 'Yes';
+const newArr2 = arr4.map(item => {
+    return item + ' Yes';
 })
 
 console.log(newArr2)
